@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../Css/estilo.css">
+
+</head>
+<body>
+
+    <h1>Costos</h1>
+    <br><br>
+    <div class="container my-4">
+        <div class="row" style="width: 40%;">
+            <div class="col-9" style="text-align: right; color:  beige;">
+            Cotización del dolar en $
+            </div>
+            <div class="col-2" >
+            <input type="number"name="dolar" id="dolar" onkeyup="calcular()">
+            </div>
+        </div>
+        <br><br>
+        <div class="row" style="width: 40%;">
+            <div class="col" style="text-align: right; color:  beige;">
+            Arduino Mega  $
+            </div>
+            <div class="col" style="text-align: left;">
+            <label id="costoMega">0</label>
+            </div>
+        </div>
+        <div class="row" style="width: 40%;">
+            <div class="col" style="text-align: right; color:  beige;">
+            Arduino Uno  $
+            </div>
+            <div class="col" style="text-align: left;">
+            <label id="costoUno">0</label>
+            </div>
+        </div>
+        <div class="row" style="width: 40%;">
+            <div class="col" style="text-align: right; color:  beige;">
+            Arduino Nano  $
+            </div>
+            <div class="col" style="text-align: left;">
+            <label id="costoNano">0</label>
+            </div>
+        </div>
+        <div class="row" style="width: 40%;">
+            <div class="col" style="text-align: right; color:  beige;">
+            Arduino Micro  $
+            </div>
+            <div class="col" style="text-align: left;" >
+            <label id="costoMicro">0</label>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../Js/accion.js"></script>
+</body>
+</html>
