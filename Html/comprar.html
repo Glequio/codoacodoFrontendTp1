@@ -10,19 +10,66 @@
 <body>
   <h1>COMPRA</h1>
   <div class="container-compra">
-    <div class="item-compra">
+    <div class="item-compra" id="promo1">
         PROMO 1 <br>
         COMPRA TRES UNIDADES CON 8% DE DESCUENTO
     </div>
-    <div class="item-compra">
+    <div class="item-compra" id="promo2">
       PROMO 2 <br>
       COMPRA CINCO UNIDADES CON 12% DE DESCUENTO
     </div>
-    <div class="item-compra">
+    <div class="item-compra" id="promo3">
       PROMO 1 <br>
       COMPRA DIEZ UNIDADES CON 20% DE DESCUENTO
   
     </div>    
+  </div>
+  <div class="container-dolar">
+      <div class="item-dolar">
+        <label for="">Por favor ingrese el valor del dolar final</label>
+      </div>
+      <div class="item-dolar">
+        <label for="">1 dolar = $</label>
+        <input type="number" id="valorDolar" value=0 name="valorDolar" required>
+      </div>
+  </div> 
+  <div class="containerOrdenCompra">
+    <div class="containerElegido">
+      SELECCIONE CANTIDAD
+      <div>
+        <label for="">Mega</label>
+        <input type="number" id="numeroMega" value=0 oninput="comprar()" name="numeroMega">
+      </div>
+      <div>
+        <label for="">Uno</label>
+        <input type="number" id="numeroUno" value=0 oninput="comprar()" name="numeroUno">
+      </div>
+      <div>
+        <label for="">Nano</label>
+        <input type="number" id="numeroNano" value=0 oninput="comprar()" name="numeroNano">
+      </div>
+      <div>
+        <label for="">Micro</label>
+        <input type="number" id="numeroMicro" value=0 oninput="comprar()" name="numeroMicro">
+      </div>
+    </div>
+    <div class="containerCostoCompra">
+      <div>
+        <label for="">Costo total : $<span><label for="" id="totalSinDescuento">0</label></span></label>
+      </div>
+      <div>
+        <label for="">Descuento : $<span><label for="" id="descuento">0</label></span></label>
+      </div>
+      <div>
+        <label for="">Total compra : $<span><label for="" id="totalCompra">0</label></span></label>
+      </div>
+    </div>
+    <div class="containerContacto">
+      <button style="color: aliceblue; padding: 2em;">COMPRAR</button>
+    </div>
+
+
+
   </div>
 
   
