@@ -39,6 +39,10 @@ label {
     top: 5rem;
     right: 0;
 }
+#comprar {
+    top: 8rem;
+    height: 7rem;
+}
 .btn {
     background-color: #424656;
     color: white;
@@ -82,5 +86,28 @@ label {
 }
 input {
     background-color: antiquewhite;
+}
+li {
+    text-align: left;
+    color: aliceblue;
+    margin-left: 1em;
+    
+}
+.container-compra {
+    display: flex;
+    flex-wrap: warp;
+
+}
+.item-compra {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    height: 10em;
+    background-color: #7e888e;
+    color: aliceblue;
+    border: solid thin blue;
+    margin: 3em;
 }
 
